@@ -1,0 +1,152 @@
+/*!
+Theme Name:     AnimeTravel
+Theme URI:      https://github.com/ghdpro/animetravel
+Author:         Gerard Krijgsman
+Author URI:     https://visei.com/
+Description:    WordPress theme for AnimeTravel.com
+Version:        0.1
+License:        GNU General Public License, version 2
+License URI:    https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain:    animetravel
+Template:       prutser
+ */
+
+@import 'vendor/thomaspark/bootswatch/dist/litera/variables';
+@import 'scss/variables';
+@import 'vendor/twbs/bootstrap/scss/bootstrap';
+@import 'vendor/thomaspark/bootswatch/dist/litera/bootswatch';
+@import '../prutser/scss/wordpress';
+
+/* Bootswatch Litera button border radius is ugly, so reset to Bootstrap default */
+
+.btn {
+  border-radius: $border-radius;
+
+  &-lg {
+	border-radius: $border-radius-lg;
+  }
+
+  &-sm {
+	border-radius: $border-radius-sm;
+  }
+}
+
+nav.navbar {
+  margin-bottom: 0;
+}
+
+nav.navbar.bg-dark {
+  background-color: #1e6dad !important;
+}
+
+nav.navbar form input[type=submit] {
+  color: $navbar-dark-color;
+  border-color: $navbar-dark-color;
+  margin-left: $spacer / 2;
+
+  &:hover {
+	color: $body-color;
+	background-color: $navbar-dark-hover-color;
+	border-color: $navbar-dark-hover-color;
+  }
+}
+
+main.container {
+  background-color: $white;
+  padding: $spacer * 1.5;
+}
+
+aside.sidebar h2.widget-title {
+  background-color: #1e6dad;
+  color: $white;
+  font-size: $font-size-lg;
+  @include border-radius($card-border-radius);
+  padding: $spacer / 4 $spacer / 2;
+}
+
+aside.sidebar h2.widget-title ~ p, aside.sidebar h2.widget-title ~ div {
+  padding: $spacer / 2;
+}
+
+aside.sidebar p {
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-sm;
+}
+
+h1.entry-title a, h2.entry-title a {
+  color: $body-color;
+
+  &:hover {
+	color: $link-hover-color;
+	text-decoration: none;
+  }
+}
+
+.entry-content a.more-link:hover {
+  text-decoration: none;
+}
+
+.entry-footer {
+  color: $gray-400;
+}
+
+.entry-footer > span:hover {
+  color: $body-color;
+}
+
+.entry-footer a {
+  color: $gray-600;
+
+  &:hover {
+	color: $body-color;
+	text-decoration: none;
+  }
+}
+
+.nav-links, .pagination {
+  margin-top: $spacer * 1.5;
+  margin-bottom: 0;
+}
+
+.comments-area form > p {
+  font-family: $font-family-sans-serif;
+}
+
+.comment-metadata a {
+  color: $gray-600;
+
+  &:hover {
+	color: $body-color;
+	text-decoration: none;
+  }
+}
+
+body > footer {
+  background-color: $gray-300;
+  border-top: $border-width solid $gray-400;
+  color: $gray-700;
+  margin-top: 0;
+}
+
+body > footer ul.menu {
+  list-style: none;
+  padding-left: $spacer / 2;
+}
+
+body > footer a {
+  color: $gray-700;
+
+  &:hover {
+	color: $link-color;
+	text-decoration: none;
+  }
+}
+
+body > footer .copyright {
+  font-size: $font-size-base * .75;
+  padding-left: $spacer * 1.5;
+}
+
+body > footer p {
+  font-family: $font-family-sans-serif;
+}
