@@ -12,3 +12,6 @@ The AnimeTravel WordPress theme is a child theme of the "Prutser" theme, with Bo
 
 = 0.1 =
 Initial version.
+
+= 0.2 =
+Single post pages now have support for a header image (post thumbnail).
