@@ -15,3 +15,6 @@ Initial version.
 
 = 0.2 =
 Single post pages now have support for a header image (post thumbnail).
+
+= 0.2.1 =
+Small styling update.
