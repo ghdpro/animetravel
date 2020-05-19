@@ -9,7 +9,15 @@ while ( have_posts() ) :
 the_post();
 
 if ( is_singular() && has_post_thumbnail() ) :
-?>
+	// If title is like "Post Topic (Info)" then style the "Info" text as a subtitle
+	$title = get_the_title();
+	$subtitle = '';
+	$brackets = stripos( $title, '(' );
+	if ( false !== $brackets ) {
+		$subtitle = substr( $title, $brackets + 1, - 1 );
+		$title    = substr( $title, 0, $brackets );
+	}
+	?>
 
 	<div class="container-fluid position-relative p-0">
 		<?php
@@ -22,8 +30,13 @@ if ( is_singular() && has_post_thumbnail() ) :
 		);
 		?>
 		<div class="post-header-image-overlay">
-			<div class="post-header-image-container" Xclass="container mt-auto mb-5 rounded" style=" ">
-				<?php the_title( '<h1 class="post-header-image-title">', '</h1>' ); ?>
+			<div class="post-header-image-container">
+				<h1 class="post-header-image-title">
+					<?php echo esc_html( $title ); ?>
+					<?php if ( ! empty( $subtitle ) ) : ?>
+						<small class="post-header-image-subtitle"><?php echo esc_html( $subtitle ); ?></small>
+					<?php endif; ?>
+				</h1>
 			</div>
 		</div>
 	</div>

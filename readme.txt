@@ -18,3 +18,6 @@ Single post pages now have support for a header image (post thumbnail).
 
 = 0.2.1 =
 Small styling update.
+
+= 0.2.2 =
+Automatic subtitle for header image titles.
