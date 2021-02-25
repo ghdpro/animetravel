@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "thomaspark/bootswatch",
-            "version": "v4.4.1",
+            "version": "v4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thomaspark/bootswatch.git",
-                "reference": "650418cfab54be9bd054ea260c2144b85deecd17"
+                "reference": "91712182e0ed651625f2b3d8a0075454f195d7ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/650418cfab54be9bd054ea260c2144b85deecd17",
-                "reference": "650418cfab54be9bd054ea260c2144b85deecd17",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/91712182e0ed651625f2b3d8a0075454f195d7ae",
+                "reference": "91712182e0ed651625f2b3d8a0075454f195d7ae",
                 "shasum": ""
             },
             "suggest": {
@@ -45,20 +45,24 @@
                 }
             ],
             "description": "Themes for Bootstrap",
-            "time": "2019-11-30T21:49:57+00:00"
+            "support": {
+                "issues": "https://github.com/thomaspark/bootswatch/issues",
+                "source": "https://github.com/thomaspark/bootswatch/tree/v4.6.0"
+            },
+            "time": "2021-01-20T23:20:08+00:00"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.5.0",
+            "version": "v4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965"
+                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/7a6da5e3e7ad7c749dde806546a35d4d4259d965",
-                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
                 "shasum": ""
             },
             "replace": {
@@ -96,13 +100,17 @@
                 "sass",
                 "web"
             ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v4.6.0"
+            },
             "funding": [
                 {
                     "url": "https://opencollective.com/bootstrap",
                     "type": "open_collective"
                 }
             ],
-            "time": "2020-05-12T17:44:42+00:00"
+            "time": "2021-01-19T16:16:38+00:00"
         }
     ],
     "packages-dev": [],
@@ -113,5 +121,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

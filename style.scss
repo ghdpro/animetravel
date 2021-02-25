@@ -4,7 +4,7 @@ Theme URI:      https://github.com/ghdpro/animetravel
 Author:         Gerard Krijgsman
 Author URI:     https://visei.com/
 Description:    WordPress theme for AnimeTravel.com
-Version:        0.2.2
+Version:        0.2.3
 License:        GNU General Public License, version 2
 License URI:    https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain:    animetravel
@@ -127,6 +127,10 @@ h1.entry-title a, h2.entry-title a {
 
 .entry-content a.more-link:hover {
   text-decoration: none;
+}
+
+.entry-content ul {
+  font-family: $font-family-serif;
 }
 
 .entry-footer {
