@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7289d5d7889f7b6db9091a7abce9e485",
+    "content-hash": "1a10147478614beaf99becf8798f2d13",
     "packages": [
         {
             "name": "thomaspark/bootswatch",
-            "version": "v4.6.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thomaspark/bootswatch.git",
-                "reference": "91712182e0ed651625f2b3d8a0075454f195d7ae"
+                "reference": "b970b0a2bb6a0fe01359a445ecc021a9eaf98c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/91712182e0ed651625f2b3d8a0075454f195d7ae",
-                "reference": "91712182e0ed651625f2b3d8a0075454f195d7ae",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/b970b0a2bb6a0fe01359a445ecc021a9eaf98c1b",
+                "reference": "b970b0a2bb6a0fe01359a445ecc021a9eaf98c1b",
                 "shasum": ""
             },
             "suggest": {
@@ -47,33 +47,28 @@
             "description": "Themes for Bootstrap",
             "support": {
                 "issues": "https://github.com/thomaspark/bootswatch/issues",
-                "source": "https://github.com/thomaspark/bootswatch/tree/v4.6.0"
+                "source": "https://github.com/thomaspark/bootswatch/tree/v5.0.1"
             },
-            "time": "2021-01-20T23:20:08+00:00"
+            "time": "2021-05-14T15:58:17+00:00"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.6.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2"
+                "reference": "58b1be927f43c779377e478df2d119f2ddf956ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6ffb0b48e455430f8a5359ed689ad64c1143fac2",
-                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/58b1be927f43c779377e478df2d119f2ddf956ca",
+                "reference": "58b1be927f43c779377e478df2d119f2ddf956ca",
                 "shasum": ""
             },
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -102,7 +97,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v4.6.0"
+                "source": "https://github.com/twbs/bootstrap/tree/v5.0.1"
             },
             "funding": [
                 {
@@ -110,7 +105,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-01-19T16:16:38+00:00"
+            "time": "2021-05-13T16:22:20+00:00"
         }
     ],
     "packages-dev": [],

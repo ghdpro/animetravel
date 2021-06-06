@@ -21,3 +21,6 @@ Small styling update.
 
 = 0.2.2 =
 Automatic subtitle for header image titles.
+
+= 0.3 =
+Updated to Bootstrap v5.0.1.

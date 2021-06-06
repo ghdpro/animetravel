@@ -1,6 +1,6 @@
 {
     "require": {
-        "thomaspark/bootswatch": "4.*",
-        "twbs/bootstrap": "4.*"
+        "thomaspark/bootswatch": "5.*",
+        "twbs/bootstrap": "5.*"
     }
 }
