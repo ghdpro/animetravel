@@ -6,7 +6,7 @@ License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 == Description ==
-The AnimeTravel WordPress theme is a child theme of the "Prutser" theme, with Bootswatch Litera styling.
+The AnimeTravel WordPress theme is a child theme of the "Prutser" theme, with modified Bootswatch Litera styling.
 
 == Changelog ==
 
@@ -23,4 +23,7 @@ Small styling update.
 Automatic subtitle for header image titles.
 
 = 0.3 =
-Updated to Bootstrap v5.0.1.
+Updated Bootstrap to v5.0.1.
+
+= 0.3.1 =
+Updated Bootstrap to v5.0.2.
