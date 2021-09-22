@@ -27,3 +27,6 @@ Updated Bootstrap to v5.0.1.
 
 = 0.3.1 =
 Updated Bootstrap to v5.0.2.
+
+= 0.3.2 =
+Updated Bootstrap to v5.1.1.
