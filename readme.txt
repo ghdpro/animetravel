@@ -33,3 +33,6 @@ Updated Bootstrap to v5.1.1.
 
 = 0.3.3 =
 Added more whitespace around various basic elements.
+
+= 0.3.4 =
+Updated styling of image captions.
