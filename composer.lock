@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "thomaspark/bootswatch",
-            "version": "v5.2.0",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thomaspark/bootswatch.git",
-                "reference": "d982c0baf3e425df284cbefa1a12620d6fbaf6e0"
+                "reference": "886fc4f76dea089ccb08e8459611751ff8227add"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/d982c0baf3e425df284cbefa1a12620d6fbaf6e0",
-                "reference": "d982c0baf3e425df284cbefa1a12620d6fbaf6e0",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/886fc4f76dea089ccb08e8459611751ff8227add",
+                "reference": "886fc4f76dea089ccb08e8459611751ff8227add",
                 "shasum": ""
             },
             "suggest": {
@@ -47,22 +47,22 @@
             "description": "Themes for Bootstrap",
             "support": {
                 "issues": "https://github.com/thomaspark/bootswatch/issues",
-                "source": "https://github.com/thomaspark/bootswatch/tree/v5.2.0"
+                "source": "https://github.com/thomaspark/bootswatch/tree/v5.2.3"
             },
-            "time": "2022-07-25T22:46:10+00:00"
+            "time": "2022-12-10T16:28:14+00:00"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "5.2.0",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "edf9c40956d19e6ab3f9151bfe0dfac6be06fa21"
+                "reference": "cb021439c683d9805e2864c58095b92d405e9b11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/edf9c40956d19e6ab3f9151bfe0dfac6be06fa21",
-                "reference": "edf9c40956d19e6ab3f9151bfe0dfac6be06fa21",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/cb021439c683d9805e2864c58095b92d405e9b11",
+                "reference": "cb021439c683d9805e2864c58095b92d405e9b11",
                 "shasum": ""
             },
             "replace": {
@@ -97,9 +97,9 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/5.2.0"
+                "source": "https://github.com/twbs/bootstrap/tree/v5.2.3"
             },
-            "time": "2022-07-19T15:43:58+00:00"
+            "time": "2022-11-21T18:19:01+00:00"
         }
     ],
     "packages-dev": [],
