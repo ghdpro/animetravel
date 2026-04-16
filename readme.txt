@@ -1,7 +1,7 @@
 === AnimeTravel ===
-Requires at least: 5.4
-Tested up to: 5.4
-Requires PHP: 7.3
+Requires at least: 6.2
+Tested up to: 6.9
+Requires PHP: 8.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -9,6 +9,12 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 The AnimeTravel WordPress theme is a child theme of the "Prutser" theme, with modified Bootswatch Litera styling.
 
 == Changelog ==
+
+= 0.4.1 (2026-04-16) =
+Minor fixes, updated Bootstrap to v5.3.8.
+
+= 0.4.0 (2024-09-08) =
+Added custom taxonomy, updated Bootstrap to v5.3.3.
 
 = 0.3.6 (2022-12-27) =
 Added logo, updated Bootstrap to v5.2.3.

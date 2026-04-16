@@ -6,13 +6,14 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<div class="container">
         <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>">
             <img src="<?php echo get_theme_file_uri( 'assets/animetravel-logo.png' ); ?>">
         </a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<?php
